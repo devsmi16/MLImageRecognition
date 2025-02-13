@@ -1,2 +1,9 @@
 # MLImageRecognition
-This iOS app lets users choose an image from their photo library and uses CoreML with the Vision framework to recognize objects in the image. The app shows the confidence level of the recognition result along with the name of the object. A progress indicator is shown during the recognition process to let the user know it’s working.
+
+Features:
+	•	Image Picker: Choose images from the photo library.
+	•	CoreML Integration: Uses MobileNetV2 model for image classification.
+	•	Progress Indicator: Shows an activity indicator while processing the image.
+	•	Result Display: Shows the recognition result with confidence level and object name.
+	•	Error Handling: Provides messages if no object is recognized.
+
